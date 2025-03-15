@@ -1,0 +1,25 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  flex-direction: column;
+  text-align: center;
+}
+
+figure {
+  max-width: 90%;
+}
+
+img {
+  width: 100%;
+  height: auto;
+  border: 2px solid black;
+}
+
+figcaption {
+  font-size: 1.2em;
+  font-style: italic;
+  margin-top: 10px;
+}
